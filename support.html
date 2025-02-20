@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        button {
+            margin-top: 20px;
+            font-size: 24px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 32px;
+            border: none;
+            cursor: pointer;
+            width: 25%;
+            box-sizing: border-box;
+        }
+    </style>
 </head>
 <body>
     <h1>Learnig git</h1>
+    <button onclick="handleButtonClick()">click me</button>
+    <script>
+        const handleButtonClick =()=>{
+            alert('Hello from JavaScript');
+        }
+    </script>
 </body>
 </html>
